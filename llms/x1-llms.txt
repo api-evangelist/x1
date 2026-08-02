@@ -1,0 +1,16 @@
+# X1
+
+> X1 (the X1 Card) was a San Francisco fintech that offered a smart Visa credit card with limits based on income rather than credit score, backed by Craft Ventures. Robinhood acquired X1 in 2023 and folded the product into the Robinhood Gold Card. X1 publishes no public developer API: x1creditcard.com and api.x1creditcard.com now redirect to robinhood.com (probed 2026-07-21), and no first-party SDK packages or GitHub organization exist.
+
+## Company
+
+- [Website (redirects to Robinhood Gold Card)](https://x1creditcard.com): 302 -> https://robinhood.com/creditcard/
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/x1/refs/heads/main/apis.yml): machine-readable index for this profile
+
+## Related
+
+- [Robinhood in the API Evangelist network](https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/apis.yml): the acquirer's profile, which covers the Robinhood Crypto Trading API — the only public developer surface of the combined company
+
+## Artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/x1/refs/heads/main/security/x1-domain-security.yml): probed TLS/HSTS/DNS posture for x1creditcard.com
